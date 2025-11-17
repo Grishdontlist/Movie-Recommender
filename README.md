@@ -20,6 +20,23 @@ It uses a **content-based filtering** technique, which recommends movies using t
 - Beginner-friendly and easy to modify
 
 ---
+🖥️ GUI Version (PyQt5)
+
+A modern PyQt5 graphical interface is available for users who prefer a visual experience.
+
+✅ GUI Features
+
+Clean, responsive PyQt5 design
+
+Search box to enter any movie title
+
+“Recommend” button to generate results
+
+Scrollable movie list with top recommendations
+
+Built-in error handling (movie not found, empty input, etc.)
+
+GUI directly integrates your existing recommendation logic
 
 ## 🧠 How It Works
 
@@ -33,5 +50,8 @@ It uses a **content-based filtering** technique, which recommends movies using t
 4. Calculate similarity between movies using **Cosine Similarity**
 5. Display the top similar movies
 
+📜 License
+
+This project is open-source and free to use for learning and development.
 ---
 
